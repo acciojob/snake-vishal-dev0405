@@ -1,33 +1,26 @@
+
 #gameContainer {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid black;
-}
-
-.gamePixel {
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border: 1px solid black;
-}
-
-.borderPixel {
-  background-color: lightgray;
-}
-
-.snakeBodyPixel {
-  background-color: green;
-}
-
-.food {
-  background-color: red;
-}
-
-.scoreBoard {
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 10px;
-}
+        width: 400px;
+        height: 400px;
+        border: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .gamePixel {
+        width: 20px;
+        height: 20px;
+        border: 1px solid gray;
+      }
+      .borderPixel {
+        background-color: gray;
+      }
+      .snakeBodyPixel {
+        background-color: green;
+      }
+      .food {
+        background-color: red;
+      }
+      .scoreBoard {
+        margin-top: 20px;
+        text-align: center;
+      }
